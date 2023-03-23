@@ -12,6 +12,6 @@
     "resolveJsonModule": true
   },
   "exclude": [
-    "menu.js"
+    "test-menu.js"
   ],
 }
