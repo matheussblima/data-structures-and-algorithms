@@ -3,10 +3,6 @@
 
 This repository contains examples developed in JavaScript of algorithms and data structures.
 
-## Menu
-
-[TOC]
-
 ## Subjects
 
 + [Sort](https://github.com/matheussblima/data-structures-and-algorithms/tree/main/src/sort)
