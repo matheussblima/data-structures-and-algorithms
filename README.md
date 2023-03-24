@@ -3,6 +3,19 @@
 
 This repository contains examples developed in JavaScript of algorithms and data structures.
 
+## Menu
+
+[TOC]
+
+## Subjects
+
++ [Sort](https://github.com/matheussblima/data-structures-and-algorithms/tree/main/src/sort)
++ [Bubble Sort](https://github.com/matheussblima/data-structures-and-algorithms/tree/main/src/sort/bubble-sort)
+    + [Bubble Sort V1](https://github.com/matheussblima/data-structures-and-algorithms/blob/main/src/sort/bubble-sort/bubble-sort-v1.ts)
+    + Bubble Sort V2
+    + Bubble Sort V3
+
+
 ## Algorithms
 
 An algorithm is a computational procedure (a set of rules that precisely define a sequence of operations) that, given an input value or a set of values, produces an output value or a set of values.

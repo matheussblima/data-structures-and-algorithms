@@ -4,7 +4,7 @@ In this Sorting Algorithm, comparisons between the array elements of size n will
 
 ![Bubble Sort Example](../../../assets/bubble-sort-example.png)
 
-##Complexity analysis
+## Complexity analysis
 
 In a sorting algorithm, the determining factor for its performance is the number of comparisons that are performed. Considering an algorithm that was implemented for an array of 5 positions, it turns out that the number of iterations for the first loop is 5. The second loop has 4 iterations, but as it is internal to the first one, it will be executed (5x4) 20 times.
 
