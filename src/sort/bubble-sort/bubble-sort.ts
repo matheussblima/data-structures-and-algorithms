@@ -1,1 +1,3 @@
-console.log("oi")
+export class BubbleSort {
+    sort(data: Array<number>) { }
+}
