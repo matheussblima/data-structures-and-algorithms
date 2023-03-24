@@ -24,7 +24,7 @@ inquirer
     }
   ])
   .then((answers) => {
-    const spawn = child_process.spawn('yarn', [`${answers.subject}:${answers.algorithm}`], {stdio: "inherit"});
+    const spawn = child_process.spawn('yarn', ['jest', `${answers.algorithm}`], {stdio: "inherit"});
 
     spawn.stdout.on('data', function(data){
       child_process.stdout.write(data);

@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test-menu.js",
-    "sort:bubble-sort": "node src/sort/bubble-sort.ts"
+    "test": "node test-menu.js", 
+    "jest": "jest --no-cache"
   },
   "keywords": [],
   "author": "",
