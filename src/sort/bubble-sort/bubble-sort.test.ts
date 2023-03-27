@@ -1,4 +1,5 @@
-import { BubbleSort } from "./bubble-sort-v1";
+import { BubbleSortV1 } from "./bubble-sort-v1";
+import { BubbleSortV2 } from "./bubble-sort-v2";
 
 const emptyArray: number[] = [];
 const sortedArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
@@ -10,7 +11,22 @@ const negativeArraySorted = [-10, -7, -3, -1, 0, 2, 3, 5, 13, 20];
 
 
 describe('BubbleSort Version 1', () => {
-    const bubbleSort = new BubbleSort()
+    const bubbleSort = new BubbleSortV1()
+
+    it('should sort array', () => {
+        expect(bubbleSort.sort(emptyArray)).toEqual(emptyArray);
+        expect(bubbleSort.sort(sortedArray)).toEqual(sortedArray);
+        expect(bubbleSort.sort(reverseArray)).toEqual(sortedArray);
+        expect(bubbleSort.sort(notSortedArray)).toEqual(sortedArray);
+        expect(bubbleSort.sort(equalArray)).toEqual(equalArray);
+        expect(bubbleSort.sort(negativeArray)).toEqual(negativeArraySorted);
+        expect(bubbleSort.sort(negativeArraySorted)).toEqual(negativeArraySorted);
+    });
+});
+
+
+describe('BubbleSort Version 2', () => {
+    const bubbleSort = new BubbleSortV2()
 
     it('should sort array', () => {
         expect(bubbleSort.sort(emptyArray)).toEqual(emptyArray);
