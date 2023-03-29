@@ -6,6 +6,7 @@ export class BubbleSortV3 {
         let n = 1;
 
         while (n <= size && swap) {
+            swap = false
             for (let index = 0; index < size - 1; index++) {
                 if(data[index] > data[index + 1]) {
                     swap = true;
