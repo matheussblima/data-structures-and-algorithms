@@ -8,7 +8,7 @@ inquirer
       name: 'algorithm',
       pageSize: 15,
       message: 'What Algorithm?',
-      choices: ['Bubble Sort', 'Binary Search'],
+      choices: ['Bubble Sort', 'Binary Search', 'Selection Sort'],
       filter: function(val) {
         return val.toLowerCase().split(' ').join('-');
       }
